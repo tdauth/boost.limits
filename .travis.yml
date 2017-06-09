@@ -1,0 +1,17 @@
+language: cpp
+compiler:
+- clang
+- gcc
+os:
+- linux
+script:
+  - mkdir build
+  - cd build
+  - cmake -DCMAKE_BUILD_TYPE=Debug .. && make && cpack .
+addons:
+  apt:
+    sources:
+     # - debian-sid
+    packages:
+      - cmake
+      - boost
