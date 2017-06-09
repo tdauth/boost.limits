@@ -1,4 +1,4 @@
-#include "limits.hpp"
+#include "boost_limits.hpp"
 
 int main()
 {

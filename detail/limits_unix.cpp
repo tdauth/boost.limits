@@ -22,7 +22,7 @@
 
 #include <boost/numeric/conversion/cast.hpp>
 
-#include "../limits.hpp"
+#include "../boost_limits.hpp"
 
 namespace boost
 {

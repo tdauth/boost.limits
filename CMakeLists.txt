@@ -22,4 +22,5 @@ add_library(boost.limits ${SRC})
 add_executable(main main.cpp)
 target_link_libraries(main boost.limits)
 
+install(FILES boost_limits.hpp DESTINATION include)
 install(TARGETS boost.limits DESTINATION lib)
